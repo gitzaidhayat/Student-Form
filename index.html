@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    
+</head>
+<body>
+
+    <div class="container">
+
+        
+        <h1>Student Registration Form</h1>
+        
+        <form action="submit">
+
+            <div class="form">
+                <label for="roll_no">Roll Number </label>
+                <input type="text" id="roll_no" name="roll_no" >
+            </div>
+
+            <div class="form">
+                <label for="name">Name </label>
+                <input type="text" id="name" name="name" required>
+            </div>
+
+            <div class="form">
+                <label for="dob">DOB </label>
+                <input type="date" name="dob" id="dob" required>
+            </div>
+
+            <div class="form">
+                <label for="department">Department</label>
+                <select id="department" name="department" required>
+                    <option value="" disabled selected>Select Department</option>
+                    <option value="department A"> SRC</option>
+                    <option value="department B">SRGC</option>
+                    <option value="department C">Architecture</option>
+                    <option value="department D">B.Tech</option>
+                </select>
+            </div>
+
+            <div class="form">
+                <label for="course">Course</label>
+                <select id="course" name="course" required>
+                    <option value=""disabled selected>Select Course</option>
+                    <option value="course a">BCA</option>
+                    <option value="course b">MBA</option>
+                    <option value="course c">B.Sc</option>
+                    <option value="course d">B.Tech</option>
+                    <option value="course e">B.Arch</option>
+                    <option value="course f">B.Phrama</option>
+                    <option value="course g">D.Pharma</option>
+                    <option value="course h">B.Com</option>
+                    <option value="course i">M.Com</option>
+                    <option value="course j">M.Sc</option>
+                </select>
+            </div>
+
+            <div class="form">
+                <label for="higher_qualification">Higher Qualification </label>
+                <select name="higher_qualification" id="higher_qualification" required>
+                    <option value=""disabled selected>Select Qualification</option>
+                    <option value="higher_qualification 1">Matriculation</option>
+                    <option value="higher_qualification 2">Senior Secondary</option>
+                    <option value="higher_qualification 3">Diploma</option>
+                    <option value="higher_qualification 4">Under Graduate</option>
+                    <option value="higher_qualification 5">Post Graduate</option>
+                </select>
+            </div>
+
+            <div class="form">
+                <label for="previous_data">Previous Degree Marks </label>
+                <input type="number" name="previous_data" id="previous_data" required>
+            </div>
+
+            <div class="form">
+                <label for="fathers_name">Father's Name </label>
+                <input type="text" name="fathers_name" id="fathers_name" required>
+            </div>
+
+            <div class="form">
+                <label for="mothers_name">Mothers Name </label>
+                <input type="text" id="mothers_name" name="mothers_name" required>
+            </div>
+
+            <div class="form">
+                <label for="mobile_no">Mobile No. </label>
+                <input type="number" name="mobile_no" id="mobile_no" required>
+            </div>
+
+            <div class="form">
+                <label for="address">Address </label>
+                <input type="text" name="address" id="address" required>
+                
+            </div>
+
+            <div class="form">
+                <label for="E-mail">E-mail </label>
+                <input type="text" name="E-mail" id="E-mail" required>
+            </div>
+
+            <div class="form">
+                <input type="submit" value="Register">
+            </div>
+
+        </form>
+
+
+    </div>
+
+
+
+    
+
+</body>
+</html>
